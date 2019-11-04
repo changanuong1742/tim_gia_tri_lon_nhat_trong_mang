@@ -8,7 +8,7 @@ public class FindArrayMax {
         int[] array;
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.print("nhap 2:");
+            System.out.print("nhap so luong phan tu:");
             size = scanner.nextInt();
             if (size > 20)
                 System.out.println("Khong nhap qua 20 phan tu");
